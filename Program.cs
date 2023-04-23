@@ -7,7 +7,7 @@ class Program
     static void Main(string[] args)
     {
         IRISConnection cn = new IRISConnection();
-        cn.ConnectionString = "Server = 127.0.0.1; Port=51778; Namespace=USER; Password = SYS; User ID = SuperUser;";
+        cn.ConnectionString = "Server = 127.0.0.1; Port=1972; Namespace=USER; Password = SYS; User ID = SuperUser;";
         cn.Open();
 
         // ●●●　検索の例 ●●●
